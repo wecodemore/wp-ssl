@@ -30,12 +30,12 @@
 			"WCM\\SSL\\" : "/"
 		}
 	},
-	"config": {
+	"config" : {
 		"bin-dir" : "bin"
 	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "0.1.x"
+	"extra" : {
+		"branch-alias" : {
+			"dev-master" : "1.0.x-dev"
 		}
 	}
 }

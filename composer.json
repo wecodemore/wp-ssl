@@ -1,0 +1,41 @@
+{
+	"name" : "wecodemore/wp-ssl",
+	"description" : "Helper class for WordPress projects to see if something is really SSL or not",
+	"homepage" : "https://github.com/wecodemore/wp-ssl",
+	"keywords" : [
+		"composer",
+		"wordpress",
+		"wp",
+		"ssl"
+	],
+	"license" : "MIT",
+	"authors" : [
+		{
+			"name"     : "Kaiser Franz Josef",
+			"email"    : "wecodemore@gmail.com",
+			"homepage" : "http://unserkaiser.com",
+			"role"     : "Lead Developer"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/wecodemore/wp-ssl/issues"
+	},
+	"minimum-stability" : "dev",
+	"require" : {
+		"php"               : ">=5.3.2",
+	  "composer/installers" : "~1.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"WCM\\SSL\\" : "/"
+		}
+	},
+	"config": {
+		"bin-dir" : "bin"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1.x"
+		}
+	}
+}
